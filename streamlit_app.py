@@ -50,7 +50,7 @@ st.markdown("""
 # Titre de l'application
 col1, col2 = st.columns([1, 10])
 
-st.image("image")
+#st.image("image")
 
 
 st.title("Chatbot de l'UHA 🧠")
