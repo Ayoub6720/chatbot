@@ -5,6 +5,8 @@ import requests
 import json
 import os
 
+
+image="https://github.com/user-attachments/assets/7f30e351-0b34-4588-a329-07715bfc352c"
 # Configuration de la page
 st.set_page_config(
     page_title="Chatbot Assistance Académique",
@@ -48,7 +50,7 @@ st.markdown("""
 # Titre de l'application
 col1, col2 = st.columns([1, 10])
 
-st.image("image_uha.png")
+st.image("image")
 
 
 st.title("Chatbot de l'UHA 🧠")
